@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2267010589">
+    <data-source source="LOCAL" name="Rails WeatherAggregator: development" uuid="63df6a0a-9345-4151-92d7-15d1f6f76c57">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:WeatherAggregator_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails WeatherAggregator: test" uuid="a16847eb-fc8e-4e34-8b6f-1f72376e622b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:WeatherAggregator_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails WeatherAggregator: production" uuid="72705aad-a365-4550-a077-78704994c66d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:WeatherAggregator_production</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>

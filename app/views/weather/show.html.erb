@@ -1,0 +1,32 @@
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="navbar-header">
+    <a class="navbar-brand" href="#">WeatherAgg</a>
+  </div>
+  <div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active">
+        <a href="#">Welcome:&nbsp;<%= @user.username %></a>
+      </li>
+      <% if user_signed_in? %>
+          <li>
+            <%= link_to('Logout', destroy_user_session_path, :method => :delete, class: 'bigger-text') %>
+          </li>
+      <% else %>
+          <li>
+            <%= link_to('Login', new_user_session_path)  %>
+          </li>
+      <% end %>
+    </ul>
+  </div>
+</nav>
+
+<img src="<%=@weather_data['current_observation']['image']['url']%>" alt="WeatherUnderground Image"/>
+
+<p>
+  <%= @weather_data['current_observation']['image']['url'] %>
+</p>
+
+<% @cities.each do |x| %>
+    <p><%= x.name %></p>
+<% end %>
+

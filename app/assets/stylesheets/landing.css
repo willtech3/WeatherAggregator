@@ -1,0 +1,41 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.landing {
+    position:fixed !important;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-image:url(spring.jpg);
+}
+
+.login-form {
+    border-radius: 20px;
+    text-align: center;
+    background-color: lightyellow;
+    opacity: .8;
+}
+
+.block { text-align: center; }
+
+.block:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align:middle;
+    margin-right: -0.25em;
+}
+
+.centered {
+    display: inline-block;
+    vertical-align: middle;
+    width: 500px;
+}
+
+.bigger-text {
+    font-size: 1.6em;
+    margin-right: 15px;
+}

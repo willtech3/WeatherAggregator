@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails WeatherAggregator: development" uuid="63df6a0a-9345-4151-92d7-15d1f6f76c57" />
+    <data-source name="Rails WeatherAggregator: test" uuid="a16847eb-fc8e-4e34-8b6f-1f72376e622b" />
+    <data-source name="Rails WeatherAggregator: production" uuid="72705aad-a365-4550-a077-78704994c66d">
+      <user-name>WeatherAggregator</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddffddfefdfebdffedfe2dfefdff8dfebdfeddfeddff8dfefdfeddfebdffedfe5dff8dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+  </component>
+</project>
